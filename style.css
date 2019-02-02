@@ -111,3 +111,12 @@ a:hover {
 .spacer {
     height: 30px;
 }
+
+.btn-success {
+    background-color: #83b271;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #659153;
+}
