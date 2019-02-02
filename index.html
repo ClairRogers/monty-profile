@@ -7,6 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=KoHo|Permanent+Marker" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Monty's Profile</title>
@@ -38,19 +40,29 @@
         <h1 class="marker">Monty's Profile</h1>
       </div>
       <div class="col-4 col-md-1 offset-md-1 text-center mt-3">
-        <p>Basics</p>
+        <a href="#basics">
+          <p>Basics</p>
+        </a>
       </div>
       <div class="col-4 col-md-1 text-center mt-3">
-        <p>Appearance</p>
+        <a href="#appearance">
+          <p>Appearance</p>
+        </a>
       </div>
       <div class="col-4 col-md-1 text-center mt-3">
-        <p>Personality</p>
+        <a href="#personality">
+          <p>Personality</p>
+        </a>
       </div>
       <div class="col-6 col-md-1 text-center mt-3">
-        <p>Relations</p>
+        <a href="#relations">
+          <p>Relations</p>
+        </a>
       </div>
       <div class="col-6 col-md-1 text-center mt-3">
-        <p>History</p>
+        <a href="#history">
+          <p>History</p>
+        </a>
       </div>
     </nav>
     <section class="row gradient">
@@ -65,7 +77,7 @@
       </div>
     </section>
   </main>
-  <main class="container">
+  <main id="basics" class="container">
     <div class="row">
       <div class="col-12 col-md-10 offset-md-1">
         <h1 class="marker biggie my-3">Basics</h1>
@@ -108,12 +120,12 @@
       </div>
     </div>
   </main>
-  <main class="container-fluid">
+  <main id="appearance" class="container-fluid">
     <section class="row green">
       <div class="col-12">
         <div class="row">
           <div class="col-12 col-md-10 offset-md-1">
-            <h1 class="marker biggie2 my-3">Physical</h1>
+            <h1 class="marker biggie2 my-3">Appearance</h1>
           </div>
         </div>
         <div class="row">
@@ -130,7 +142,7 @@
       </div>
     </section>
   </main>
-  <main class="container">
+  <main id="personality" class="container">
     <section class="row">
       <div class="col-12 col-md-10 offset-md-1">
         <h1 class="marker biggie my-3">Personality</h1>
@@ -142,25 +154,101 @@
       <div class="col-12 col-md-4 mt-3">
         <h3 class="text-center marker">Positive</h3>
         <div class="flip">click to show / hide</div>
-        <div class="panel">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam molestiae ducimus sit at
+        <div class="panel">
+          <h3><i class="fas fa-plus"></i></h3>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam molestiae ducimus sit at
           quam eveniet aut est corrupti, veritatis ad harum itaque totam, incidunt nihil, commodi debitis dolores
-          nesciunt voluptates.</div>
+          nesciunt voluptates.
+        </div>
       </div>
       <div class="col-12 col-md-4 mt-3">
         <h3 class="text-center marker">Neutral</h3>
         <div class="flip2">click to show / hide</div>
-        <div class="panel2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam molestiae ducimus sit
+        <div class="panel2">
+          <h3><i class="fas fa-equals"></i></h3>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam molestiae ducimus sit
           at
           quam eveniet aut est corrupti, veritatis ad harum itaque totam, incidunt nihil, commodi debitis dolores
-          nesciunt voluptates.</div>
+          nesciunt voluptates.
+        </div>
       </div>
       <div class="col-12 col-md-4 mt-3">
         <h3 class="text-center marker">Negative</h3>
         <div class="flip3">click to show / hide</div>
-        <div class="panel3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam molestiae ducimus sit
+        <div class="panel3">
+          <h3><i class="fas fa-minus"></i></h3>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam molestiae ducimus sit
           at
           quam eveniet aut est corrupti, veritatis ad harum itaque totam, incidunt nihil, commodi debitis dolores
-          nesciunt voluptates.</div>
+          nesciunt voluptates.
+        </div>
+      </div>
+    </section>
+    <section class="row spacer">
+    </section>
+  </main>
+  <main id="relations" class="container-fluid">
+    <section class="row green">
+      <div class="col-12">
+        <div class="row">
+          <div class="col-12 col-md-10 offset-md-1">
+            <h1 class="marker biggie2 my-3">Relations</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-3 offset-md-1">
+            <h3 class="marker">Family</h3>
+            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, reiciendis dolor recusandae
+              quasi dicta, enim aperiam reprehenderit tempora commodi ipsum illo placeat iusto tenetur voluptatem,
+              beatae iure at. Recusandae, qui?</p>
+          </div>
+          <div class="col-12 col-md-4">
+            <img src="//placehold.it/500x300" class="img-fluid mb-5">
+          </div>
+          <div class="col-12 col-md-3">
+            <h3 class="marker">Extras</h3>
+            <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque assumenda non perspiciatis
+              qui ea
+              consequuntur officiis quibusdam laborum placeat doloribus. Dolore voluptatem in quas iste praesentium
+              debitis sit accusamus. Sint.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <main id="history" class="container">
+    <div class="row">
+      <div class="col-12 col-md-10 offset-md-1">
+        <h1 class="marker biggie my-3">History</h1>
+        <h3 class="marker">Short Version</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum saepe odio qui non nihil, eligendi atque,
+          rem eum delectus temporibus facere pariatur quaerat. Nostrum esse dolorum molestias quaerat nam amet! Lorem,
+          ipsum dolor sit amet consectetur adipisicing elit. Excepturi sint provident tempore ut, pariatur modi est id
+          itaque voluptatibus in aliquid architecto officiis, recusandae, enim aut dignissimos perferendis quisquam.
+          Tempora!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum saepe odio qui non nihil, eligendi atque,
+          rem eum delectus temporibus facere pariatur quaerat. Nostrum esse dolorum molestias quaerat nam amet! Lorem,
+          ipsum dolor sit amet consectetur adipisicing elit. Excepturi sint provident tempore ut, pariatur modi est id
+          itaque voluptatibus in aliquid architecto officiis, recusandae, enim aut dignissimos perferendis quisquam.
+          Tempora!</p>
+        <h3 class="marker">Long Version</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum saepe odio qui non nihil, eligendi atque,
+          rem eum delectus temporibus facere pariatur quaerat. Nostrum esse dolorum molestias quaerat nam amet! Lorem,
+          ipsum dolor sit amet consectetur adipisicing elit. Excepturi sint provident tempore ut, pariatur modi est id
+          itaque voluptatibus in aliquid architecto officiis, recusandae, enim aut dignissimos perferendis quisquam.
+          Tempora!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum saepe odio qui non nihil, eligendi atque,
+          rem eum delectus temporibus facere pariatur quaerat. Nostrum esse dolorum molestias quaerat nam amet! Lorem,
+          ipsum dolor sit amet consectetur adipisicing elit. Excepturi sint provident tempore ut, pariatur modi est id
+          itaque voluptatibus in aliquid architecto officiis, recusandae, enim aut dignissimos perferendis quisquam.
+          Tempora!</p>
+      </div>
+    </div>
+  </main>
+  <main class="container-fluid">
+    <section class="row green">
+      <div class="col-12 col-md-8 offset-md-2 text-center">
+        <p class="mt-3">Coding credit © <a href="https://github.com/ClairRogers">Clair Rogers</a> aka <a href="https://www.deviantart.com/caliberarts">CaliberArts</a></p>
       </div>
     </section>
   </main>

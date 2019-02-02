@@ -3,6 +3,19 @@ body {
     font-family: 'KoHo', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+    transition: all .5s ease;
+}
+
+a:hover {
+    letter-spacing: 1px;
+    text-shadow: 0 0 4px white;
+    text-decoration: none;
+    color: white;
+}
+
 .marker {
     font-family: 'Permanent Marker', cursive;
 }
@@ -94,3 +107,7 @@ body {
 
 .progress {background: rgba(245, 245, 245, 1); border: 0px solid rgba(245, 245, 245, 1); border-radius: 4px; height: 20px;}
 .progress-bar-custom {background: #abcb89;}
+
+.spacer {
+    height: 30px;
+}
