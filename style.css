@@ -16,6 +16,20 @@ a:hover {
     color: white;
 }
 
+.navbar {
+  background-color: #d2ea9b;
+  color: white;
+}
+
+.navbar-nav {
+  color: white;
+  justify-content: space-around;
+}
+
+.nav-link {
+  color: white;
+}
+
 .marker {
     font-family: 'Permanent Marker', cursive;
 }
